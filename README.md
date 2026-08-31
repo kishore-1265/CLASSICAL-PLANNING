@@ -1,4 +1,7 @@
 # ExpNo:10 Implementation of Classical Planning Algorithm
+# Name: Kishore R
+# Registration No: 212225040192
+# Date: 31-08-2026
 # Algorithm or Steps Involved:
 <ol>
   <li>Define the initial state</li>
@@ -39,6 +42,15 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
+
+# Output:
+```
+['move_A_to_B', 'move_B_to_C']
+
+```
+# Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
+<h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
+
 #PROGRAM:
 ```
 def is_goal_state(current_state, goal_state):
@@ -108,13 +120,9 @@ plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 
 ```
-# Output:
-```
-['move_A_to_B', 'move_B_to_C']
-```
 OUTPUT:
 
 <img width="353" height="69" alt="image" src="https://github.com/user-attachments/assets/36ce74de-e477-4a1a-97d2-a17270b2bc9b" />
 
-#RESULT:
+# RESULT:
  Thus The Program was Runned successfully and output was checked
